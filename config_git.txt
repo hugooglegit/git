@@ -4,6 +4,7 @@ git remote add origin https://github.com/hugooglegit/git.git e adicionando remot
 
 Abra o terminal e vá para o usuário [Ver imagem em anexo]
 Abra a pasta .ssh e verifique se ele não possui nenhum arquivo como id_rsa ou id_rsa.pub, caso contrário, às vezes, ele não será reescrito corretamente
+
 git --version [Verifique a instalação e versão do git]
 git config --global user.email "seu email id"
 git config --global user.name "seu nome"
