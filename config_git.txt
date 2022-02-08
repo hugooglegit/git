@@ -10,4 +10,4 @@ git config --list [verifique se você definiu seu nome e email]
 cd ~/.ssh
 ssh-keygen, solicita salvar arquivos, permite
 cat ~/.ssh /id_rsa.pub - caso tiver ja na pasta apague ~/ .ssh [Acesse sua chave pública e copie a chave para as configurações de gerrit]
-> C:\Users\hugoo/.ssh/id_rsa
+> C:\Users\hugoo/.ssh/id_rsa abrir arquivo local
