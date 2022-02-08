@@ -1,0 +1,12 @@
+git cherry-pick estava na branch novo-release trabalhando nele onde foi realizado alguns commit, em seguida
+foi necessario alterar para branch master e realizar alguns ajuste porem um dos ajuste estava na branch
+novo-release logo pegamos um commit da branch novo como git log --oneline pega um hash e fazer um git cherry pick na branch master
+git cherry pick novo-release
+
+
+Execute git add index.html e depois git commit -m "Separando os títulos", para realizar o commit desta alteração;
+Adicione uma quebra de linha antes de cada título (<dt>);
+Execute git add index.html e depois git commit -m "Quebras de linha" para realizar o commit desta alteração;
+Execute git log --oneline para verificar que há três novos commits para a última issue criada;
+Execute git rebase -i HEAD~3 para analisar quais dos três últimos commits serão mantidos ou unidos ao anterior;
+Troque a palavra pick, nas linhas 2 e 3, por um s (de 
