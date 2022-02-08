@@ -1,4 +1,5 @@
 git config --local user.email hugo.limaf31@gmail.com configuracao do usuario
+
 git remote add origin https://github.com/hugooglegit/git.git e adicionando remotamente a branch
 
 Abra o terminal e vá para o usuário [Ver imagem em anexo]
