@@ -1,8 +1,10 @@
 git config --local user.email hugo.limaf31@gmail.com configuracao do usuario
+
 git remote add origin https://github.com/hugooglegit/git.git e adicionando remotamente a branch
 
 Abra o terminal e vá para o usuário [Ver imagem em anexo]
 Abra a pasta .ssh e verifique se ele não possui nenhum arquivo como id_rsa ou id_rsa.pub, caso contrário, às vezes, ele não será reescrito corretamente
+
 git --version [Verifique a instalação e versão do git]
 git config --global user.email "seu email id"
 git config --global user.name "seu nome"
@@ -10,4 +12,4 @@ git config --list [verifique se você definiu seu nome e email]
 cd ~/.ssh
 ssh-keygen, solicita salvar arquivos, permite
 cat ~/.ssh /id_rsa.pub - caso tiver ja na pasta apague ~/ .ssh [Acesse sua chave pública e copie a chave para as configurações de gerrit]
-> C:\Users\hugoo/.ssh/id_rsa
+> C:\Users\hugoo/.ssh/id_rsa abrir arquivo local
